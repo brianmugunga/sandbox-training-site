@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandbox Practice Website</title>
+    <!-- Load Tailwind CSS for easy styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom font */
+        body { font-family: 'Inter', sans-serif; }
+        /* Dashed borders to show editable sections in the sandbox */
+        .editable-text-box { border: 2px dashed green; padding: 1rem; border-radius: 0.5rem; margin-bottom: 1rem; }
+        .editable-image-box { border: 2px dashed orange; padding: 0.5rem; border-radius: 0.5rem; }
+    </style>
+</head>
+<body class="bg-gray-50 min-h-screen">
+    <header class="bg-white shadow-lg">
+        <div class="max-w-7xl mx-auto p-4 flex flex-col sm:flex-row justify-between items-center">
+            <!-- EDITABLE TEXT: Site Title -->
+            <div class="editable-text-box">
+                <h1 class="text-3xl font-bold text-indigo-600">Sandbox Training Site</h1>
+            </div>
+            <!-- EDITABLE TEXT: Nav Link -->
+            <div class="editable-text-box mt-3 sm:mt-0">
+                <!-- Change the 'Click Here' text and the URL inside href="..." -->
+                <a href="https://www.oldlink.com" class="text-gray-600 hover:text-indigo-600 font-medium">Click Here for Support</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto p-8">
+        
+        <section class="text-center mb-12">
+            <!-- EDITABLE TEXT: Main Headline -->
+            <div class="editable-text-box mb-4">
+                <h2 class="text-4xl sm:text-5xl font-extrabold text-gray-900 leading-tight">
+                    Welcome to the NEW Website Management Sandbox Area
+                </h2>
+            </div>
+            <!-- EDITABLE TEXT: Sub-Headline/Motto -->
+            <div class="editable-text-box">
+                <p class="mt-4 text-lg sm:text-xl text-gray-500">
+                    This is where you practice the **Commit** and **Branch** workflow safely.
+                </p>
+            </div>
+        </section>
+
+        <section class="bg-white p-6 sm:p-8 rounded-xl shadow-xl mb-12">
+            <h3 class="text-2xl sm:text-3xl font-semibold text-gray-800 mb-6 text-center">About Our Company Goal (Text Edit Practice)</h3>
+            <!-- EDITABLE TEXT: Main Body Paragraph -->
+            <div class="editable-text-box mb-6">
+                <p class="text-gray-700 leading-relaxed">
+                    This is the main body paragraph where we describe our core mission and focus. You need to be able to find and replace sentences in this area, including editing the crucial metrics and dates we mention. Remember, **finding the text is 90% of the job!** Use Ctrl+F or Cmd+F to quickly locate this paragraph in the code editor.
+                    <br><br>
+                    You can add a new paragraph right here by hitting Enter twice in the GitHub editor. This will simulate adding a new block of information easily.
+                </p>
+            </div>
+
+            <div class="flex justify-center">
+                <!-- EDITABLE TEXT: Call to Action Button -->
+                <div class="editable-text-box">
+                    <!-- Change the button text and the URL inside href="..." -->
+                    <a href="https://www.old-signup-page.com" class="inline-flex items-center justify-center px-6 sm:px-8 py-3 border border-transparent text-base font-medium rounded-full shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 transition duration-150 ease-in-out">
+                        Change Button Text Now
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-12">
+            <h3 class="text-2xl sm:text-3xl font-semibold text-gray-800 mb-6 text-center">Image Management Practice</h3>
+            <div class="flex justify-center">
+                <!-- EDITABLE IMAGE: Image Source (src) and Alt Text -->
+                <div class="editable-image-box">
+                    <!-- 
+                        TRAINING NOTE: The goal is to swap the URL in 'src' for a new public image link.
+                        The alternate image link to use for practice: 
+                        https://placehold.co/400x250/007AFF/ffffff?text=New+Image+Swapped 
+                    -->
+                    <img src="https://placehold.co/400x250/22C55E/ffffff?text=OLD+IMAGE+TO+REPLACE" 
+                         alt="Placeholder image showing a green graphic ready to be swapped" 
+                         class="rounded-lg shadow-lg w-full max-w-xs sm:max-w-md">
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-800 text-white p-6 mt-8">
+        <div class="max-w-7xl mx-auto text-center">
+            <!-- EDITABLE TEXT: Footer Copyright -->
+            <div class="editable-text-box">
+                <p>&copy; 2025 Sandbox Training. All Rights Reserved. (Change the Year)</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
